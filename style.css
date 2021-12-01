@@ -1,11 +1,29 @@
-#usuarios {
-  display: flex;
-  flex-wrap: wrap;
+th, td {
+  /* border: 2px solid aquamarine; */
+  padding: 5px
 }
 
-.card {
-  margin: 20px;
-  padding: 20px;
-  border: 1px solid black;
-  border-radius: 10px;
+
+table {
+  width: 75%;
+  border-spacing: 5px;
+  border-collapse: collapse;
 }
+
+/* 
+.col-email {
+  width: 700px
+} */
+
+
+/* tr:nth-child(odd) {
+  background-color: aquamarine;
+} */
+
+tr {
+  border-bottom: 1px solid gray;
+}
+
+/* tr:hover {
+  background-color: aqua;
+} */
